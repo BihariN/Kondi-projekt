@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="HU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{background-color: darkgray;}
+        h2{color: rgb(11, 11, 255); text-align: center; background-color: lightslategray; padding: 10px solid black;}
+        h1{text-align: center;}
+    </style>
+</head>
+<body>
+    <h1><i>Softver fejlesztés</i></h1>
+    <h2>Softver fejlesztés lépései</h2>
+    <ol>
+        <li>Analízis</li>
+        <li>Tervezés</li>
+        <li>Ködolás</li>
+        <li>Tesztelés/karbantartás</li>
+    </ol>
+<h2>Analízis</h2>
+<p>Az Analízis során felmérjük a helyzete: mire van <br>szükség, mik a lehetőségek</p>
+    <p>Itt kell dönteni, hogy a feladat megvalósítható-e, <br>mik a célok, meg kell az időt, költségeket.</p>
+<h2>Feladat specifikáció:</h2>
+<ul>
+    <li>teljes</li>
+    <li>érthető</li>
+    <li>egyértelmű</li>
+    <li>pontos</li>
+    <li>tömör</li>
+    <li>szemléletes</li>
+    <li>előrelátó</li>
+    <li>jól felápített, tagolt</li>
+</ul>
+<h2>A beviteli (input) adatok.</h2>
+<ul>
+    <li>mik az input adatok?</li>
+    <li>Milyen a beviteli formájuk?</li>
+    <li>Mik a bevihető értékek</li>
+    <li>milyen módat kell befejezni a bevitet?</li>
+    <li>Milyen kapcsolatok vannak a bevitt adatok közöt? (adatbázis kezelés)</li>
+</ul>
+<h2>A kiviteli (output) adatok</h2>
+<ul>
+    <li>Milyen adatokat kell</li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<hr style="height: 5px; background-color: black;">
+<h1>Tervezés</h1>
+<p>A tervezés feladat az analízis során összegyűjtött információkat és 
+   adatokat alapul véve logikailag véglegesen kialakítsa az adat struktúrákat és az adatokat manipulálóalgaritmusokat
+</p>
+<h2>Tervezés módszer kiválasztása:</h2>
+<ul>
+    <li>A számítás technika mely korszakát ékjük?</li>
+    <li>Milyen számítógépre készül a program?</li>
+    <li>Mekkora a megoldandó feladat?</li>
+    <li>Milyen módszerek állnak rendelkezésre?</li>
+    <li>Milyen a tervező csoport infromáltsága?</li>
+    <li>Van-e anyagi fedezet?</li>
+    <li>Mik a tradíciók?</li>
+    <li>Mi a fönöki utasítás?</li>
+</ul>
+<p>A tervezés során a folyamatábra segítségével modelezzük a <br>folyamatokat, algoritmusokat.</p>
+<p>A tervezési folyamat dokumentációja a <b>programterv</b>. Ezt <br>folyamatosan ellenőrizni, tesztelni kell az elképzelt adatokkal.<br>"Fejben lefuttatjuk" programot. Ezt nevezük száráz teszttnek.</p>
+<h2>Kódolás</h2>
+<p>Implementálás (kivitelezés)</p>
+<p>Első lépés a programterv kódolása egy adott programnyelven.</p>
+<p>A dokumentációja ennek a szakasznak a firrásprogram, illetve a forrásnyelvi lista.</p>
+<p>Egy forrásnyelvi lista akkor jó, ha az</p>
+<ul>
+    <li>pontosan a programterv szerint készül</li>
+    <li>áttekinthető, olvasható</li>
+    <li>tönör, és egyértelmű megjegyzésekkel van kiegészítve</li>
+</ul>
+<p>Szintaktikai hibák javytása történik.</p>
+<h2>Tesztelés</h2>
+<p>Próbafutások alkalmával természetes, hogy hibát észlelünk</p>
+<p>Szemantikai hiba: logikai hibát észlelünk</p>
+<p>Tesztelés feladat:</p>
+<ul>
+    <li>Logikai hibák feltárása</li>
+    <li>Szélsőséges esetek feltárása és kezelése</li>
+</ul>
+<p>Tesztelés folyamata:</p>
+<ul>
+    <li>különböző próba adatokkal futtatjuk a programot</li>
+    <li>a tesztadatokat úgy kell összeállítani, hogy azok lehetséges értéket felvegyenek</li>
+    <li></li>
+</ul>
+<h2>Teszteléskor fogyelni kell arra hogy</h2>
+<ul>
+    <li>pontosan ógy működik-e program, ahogy az a feladatleírásban szerepel?</li>
+    <li>Nem lehet-e elrontani?</li>
+    <li>Elég hatékony-e?</li>
+    <li>A program felhasználó barát-e?</li>
+    <li>Teljes mértékben szolgálja-e a felhasználót?</li>
+    <li>Szép-e a program?</li>
+    <li>Sehol sem idegesítő?</li>
+</ul>
+<p><i>Tesztelési fázis dokumentációja a kész program és a tesztadatok listája.</i></p>
+<h2>Dokumentálás</h2>
+<p>Minden fázisanak meg van a maga terméke, dokumentációjs. A program fejlesztésének befejeztével a teljes dokumentációt meg kell őrizni. Csak így lehet a későbbiekben a programon változtatni</p>
+<p>A feljeszői dokumentáció részei:</p>
+<ul>
+    <li>feladatspecifikáció.</li>
+    <li>Programterv.</li>
+    <li>Forrásprogram.</li>
+    <li>Készprogram.</li>
+    <li>Tesztadatok listája.</li>
+    <li>+1 felhasználó kap a kész rendszerhez egy a program használatával kapcsolatos információkat dokumentációt.</li>
+</ul>
+<p>Felhasználói dokumentáció részei:</p>
+<ul>
+    <li>Feladat leírása</li>
+    <li style="margin-left: 50px;">Hardvare körbyezet</li>
+    <li style="margin-left: 50px;">Számítógep típusa</li>
+    <li>minimális konfiguráció</li>
+    <li>Szoftver környezet</li>
+    <li style="margin-left: 50px;">operációs rendszer</li>
+    <li style="margin-left: 50px;">futtatáshoz szükséges kiegészítő szoftverek</li>
+    <li>Fejlesztési környezet, programozási nyelv</li>
+    <li>Program betöltése, indi</li>
+    <li>a program használatának részletes leírása</li>
+    <li style="margin-left: 50px;">billentyűk használata</li>
+    <li style="margin-left: 50px;">működési leírás minden részletre kitérően</li>
+    <li style="margin-left: 50px;">segítség kérés lehetőségei</li>
+    <li style="margin-left: 50px;">képernyő tervek, lista tervek</li>
+    <li style="margin-left: 50px;">hibaüzenetek feksorolása, útmutatás, teendők</li>
+    <li></li>
+    <li>biztonsági előírás</li>
+</ul>
+</body>
+</html>
