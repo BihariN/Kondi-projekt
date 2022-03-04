@@ -1,2 +1,2 @@
 # Kondi projekt
- iskolaprojektmunka
+ iskolaiprojektmunka
