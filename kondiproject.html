@@ -14,9 +14,15 @@
         }
 
         .header{
-            text-align: center;
-            padding: 20px;
-            background-color: #ddd;
+            text-align: left;
+            padding-left: 50px;
+            padding: 1px;
+            padding-left: 50px;
+            background-color: yellow;
+        }
+
+        p, h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
         .topnav {
@@ -34,8 +40,17 @@
         }
 
         .topnav a:hover {
-        background-color: #ddd;
+        background-color: yellow;
         color: black;
+        }
+
+        .texth1 {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 60%;
+        left: 30%;
+        transform: translate(-50%, -50%);
         }
         
         .row:after{
@@ -45,45 +60,66 @@
         }
 
         .column {
-        float: left;
-        padding: 10px;
+            float: left;
+            width: 33.33%;
         }
 
-        .column.side {
-        width: 25%;
+        #p{
+            font-size: 14px;
         }
 
-        .column.middle {
-        width: 50%;
+        #h1{
+            font-size: 25px;
         }
 
-        .column.middle img{
-            width: 95%;
-            height: -50px;
+        .page{
+            padding-left: 10px;
+            padding-right: 10px;
         }
+
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>Header</h1>
+        <h1>Builder</h1>
     </div>
     <div class="topnav">
         <a href="#">Page1</a>
         <a href="#">Page1</a>
         <a href="#">Page1</a>
     </div>
+    <div class="container">
+        <a><img src="https://bodybuilder.hu/images/bbcomment/gyak_menu_bicepsz_600x314_OG_new.jpg" width="1903.3" height="500" alt="">
+        <div class="texth1">
+            <h1>Bicepsz</h1>
+        </div>
+    </div>
     <div class="row">
-        <div class="column side">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+        <div class="column">
+            <p></p>
         </div>
-        <div class="column middle">
-            <h1>Pulvinar etiam non quam lacus suspendisse faucibus interdum.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Red_flag.svg/1280px-Red_flag.svg.png" alt="">
+        <div class="column">
+            <p id="p"><b>A megfeszített kar mérete a görög ideál szerint megegyezik a nyak és a vádli méretével.</b><br>Azt hiszem ettől az ideáltól a mai testépítők már messzire jutottak. Ma az a "menő", ha a testépítő karja minél nagyobb. E század derekáig azonban a legtöbb testépítő el is érte ezt az ideált, pl. Steve Reeves vádlija, nyaka és felkarja egyaránt 45 centiméteres volt. A kar edzéséhez nem elég 3-3 bicepsz és tricepsz sorozat valamelyik gyakorlatból. Hatalmas kart csak legalább 15-20 sorozattal, különböző gyakorlatok bevetésével lehet kifejleszteni.</p>
+            <h1 id="h1"><i><b>A bicepsz edzés fő mozdulatai</b></i></h1>
+            <p id="p">A felkar elülső részén két izomcsoport helyezkedik el, és ezek mindegyike összehúzódik a kar behajlításakor. Az izmok közül a kisebbiket brachialisnak nevezzük, és akkor válik láthatóvá, amikor hátulról nézzük meg a felkart: a bicepsz és a tricepsz között helyezkedik el. A brachialis izom a könyök fölött a felkarcsont csak kb. közepéig tart.<b> Akkor húzódik össze a legjobban, amikor a tenyerünk lefelé néz, és úgy hajlítjuk be a karunkat. </b>(Meglehetősen nagy terhelést kap azonban a hát edzése során is, pl. a húzódzkodás, az evezés és a lehúzás során).</p>
+            <p id="p"><b>A bicepsz jóval nagyobb izom mint a brachialis, és elsődleges szerepe a kar hajlítása.</b> A vállizület közelében ered, és az alkarcsontokon tapad, funkciója pedig az, hogy a kart teljesen behajlítsa. A bicepsz második funkciója, amit kevés testépítő ismer fel, a kéz szupinálása, magyarán beforgatása. Ha leeresztük testünk mellet a karunkat, majd behajlítjuk úgy, hogy az alkarunk párhuzamos legyen a talajjal a tenyerünk nézhet lefelé, ezt a helyzetet nevezzük pronált tartásnak, az ebbe a helyzetbe forgatást pedig pronálásnak. Ha most (csak) a tenyerünket felfelé fordítjuk, ezt a mozdulatot nevezzük szupinálásnak, azaz a tenyér befelé forgatásának. Ebben a mozdulatban játszik a bicepsz még kulcsszerepet.</p>
+            <p id="p">Ha ebbe belegondolunk, akkor nyilvánvalóvá válik, hogy a franciarudas bicepszezés nem használja ki a kézfej szupináló mozgását, szemben az egyenes rudas karhajlítással, ahol a bicepsz szupináló mozgását is hasznosítjuk. Hasonló módon a legösszetettebb bicepsz gyakorlat egykezes súlyzóval végezhető, mert ilyenkor maximálisan kihasználható a szupináló mozgás. <b>Azok a bicepsz gyakorlatok tehát a leghatékonyabbak, melyeknél a karhajlítás mellett ezt a szupináló mozgást is tuduk végezni.</b>></p>
+            <h1 id="h1"><b>Bicepsz edzés otthon</b></h1>
+            <p id="p">Mivel a bicepsz edzés nem kíván meg sok eszközt, így a bicepsz növelése otthoni körülmények között sem lehetetlen feladat. Mindössze egy szerelhető kézisúlyzóra lesz szükségünk, valamint, ha megtehetjük, szerezzünk be egy húzódzkodó rudat is. <b>Így a legfontosabb bicepsz gyakorlatok simán elvégezhetővé válnak!</b></p>
+            <h1 id="h1">Bicepsz és tricepsz?</h1>
+            <p id="p">A tricepsz nagyobb izomcsoport, mint a bicepsz, így ha az edzésünk azonos volumennel tartamazza a bicepsz és tricepsz gyakorlatokat, akkor tévúton járunk.<b>A tricepsz fejlesztése több munkát kíván meg, mint a bicepsz növelése.</b>A két gyakorlat sorrendje? Nos, a bicepsz tricepsz előtt megdolgoztatva jól "kipárnázza" a kart, így téve lehetővé azt hogy a tricepszedzésünk a lehető leghatékonyabb legyen.</p>
+            <hr>
+            <div class="page">
+            <a href="kondiproject2.html"><img src="https://shopbuilder.hu/images/bbcomment/lehuzas_bicepszre_600x314_FB_OG.jpg" width="300" height="157" alt=""></a>
+            <img src="https://shopbuilder.hu/images/bbcomment/lehuzas_bicepszre_600x314_FB_OG.jpg" width="300" height="157" alt="">
+            <img src="https://shopbuilder.hu/images/bbcomment/lehuzas_bicepszre_600x314_FB_OG.jpg" width="300" height="157" alt="">
+            <img src="https://shopbuilder.hu/images/bbcomment/lehuzas_bicepszre_600x314_FB_OG.jpg" width="300" height="157" alt="">
+            <img src="https://shopbuilder.hu/images/bbcomment/lehuzas_bicepszre_600x314_FB_OG.jpg" width="300" height="157" alt="">
+            <img src="https://shopbuilder.hu/images/bbcomment/lehuzas_bicepszre_600x314_FB_OG.jpg" width="300" height="157" alt="">
+            </div>
         </div>
-        <div class="column side">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+        <div class="column">
+            <p></p>
         </div>
     </div>
 </body>
